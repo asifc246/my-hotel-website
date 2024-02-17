@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar-div{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(32, 28, 28);
+    padding: 10px;
+    align-items: center;
+}
+.navbar-sub-div li{
+    display: inline;
+}
+.navbar-sub-div a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 80px;
+    font-size: 22px;
+}
+.navbar-sub-div .active{
+    color: rgb(228, 199, 145);
+}
+.navbar-sub-div a:hover{
+    color: rgb(228, 199, 145);
+}
+.navbar-sub-div img{
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+}
+.contact-div{
+    margin: auto;
+    width: 50%;
+}
+.contact-div span{
+    color: rgb(241, 199, 120);
+}
+.contact-sub-div input[type=text],input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.contact-sub-div textarea{
+    width: 100%;
+    padding: 20px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.contact-div button{
+    background-color: rgb(99, 214, 99);
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    margin: 1%;
+}
+.footer-div{
+    display: flex;
+    color: wheat;
+    background-color: rgb(26, 27, 29);
+    width: 100%;
+}
+.footer-sub-div{
+    padding-left: 20px;
+    width: 30%;
+    text-align: center;
+}
+.copy{
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(26, 27, 29);
+    display: block;
+    color: wheat;
+    text-align: center;
+}

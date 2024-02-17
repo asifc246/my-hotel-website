@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.navbar-div{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(32, 28, 28);
+    padding: 10px;
+    align-items: center;
+}
+.navbar-sub-div li{
+    display: inline;
+}
+.navbar-sub-div a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 80px;
+    font-size: 22px;
+}
+.navbar-sub-div .active{
+    color: rgb(228, 199, 145);
+}
+.navbar-sub-div a:hover{
+    color: rgb(228, 199, 145);
+}
+.navbar-sub-div img{
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+}
+.about-div{
+    display: flex;
+    background-color: rgb(219, 219, 219);
+}
+.about-sub-div {
+    margin: 1%;
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.about-sub-div img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+.guest-div img{
+    width: 100%;
+}
+.guest-div{
+    display: flex;
+    position: relative;
+}
+.guest-sub-div{
+    position: absolute;
+    top: 30%;
+    color: black;
+    margin: 20px;
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0.479);
+}
+.guest-message{
+    display: block;
+}
+.footer-div{
+    display: flex;
+    color: wheat;
+    background-color: rgb(26, 27, 29);
+    width: 100%;
+}
+.footer-sub-div{
+    padding-left: 20px;
+    width: 30%;
+    text-align: center;
+}
+.copy{
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(26, 27, 29);
+    display: block;
+    color: wheat;
+    text-align: center;
+}
+.guest-sub-div img{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    border: 2px solid;
+}
